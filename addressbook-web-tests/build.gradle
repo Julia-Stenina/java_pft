@@ -6,7 +6,11 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.jetbrains:annotations:19.0.0'
     compile 'org.testng:testng:6.9.10'
+//    compile 'org.seleniumhq.selenium:selenium-java:2.48.2'
+    compile 'org.seleniumhq.selenium:selenium-java:2.53.0'
+
 }
 
 test {
